@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+:root {
+    --light-white: #212529;
+    --dark-white: #707070;
+    --light: #f8f9fA;
+    --white: #fff;
+    --success: #28a745;
+  }
+  
+ 
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+
+
+.navbar {
+  background-color: var(--success);
+}
+
+.navbar img{
+  width: 100px;
+}
+
+.navbar a{
+  color:white;
+  font-size: 16px;
+}
+
+.active {
+  font-weight: 500;
+  color: white;
+}
+
+
+
+
+
+.card {
+  margin:20px;
+  color: var(--dark-white);
+  padding:0;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.card-text{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+
+.btn {
+  color:#28a745;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.older {
+  color: var(--dark-white);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.contact {
+  background-color: #28a745;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 20px 50px;
+}
+
+.contact h3{
+  font-size: 21px;
+  padding: 10px;
+}
+
+.form-control {
+  font-size: 16px;
+  padding: 11px;
+}
+
+.btn-light {
+  color: var(--light-white)
+}
+
+.footer{
+  text-align: center;
+  padding: 20px 50px;
+  font-size: 16px;
+  color:var(--dark-white);
+}
+
+.footer-img{
+  width: 100px;
+}
+
